@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enzo Machaca - Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__title">Enzo Machaca</h1>
+      <p class="header__subtitle">Analista Programador</p>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link nav__link--active">Sobre mí</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Proyectos</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section id="about" class="section section--light about">
+      <div class="about__inner">
+        <div class="about__image-wrapper">
+          <img src="/images/User.jpg" alt="Enzo Machaca" class="about__image">
+        </div>
+        <div class="about__content">
+          <h2 class="section__title">Sobre mí</h2>
+          <p class="about__text">
+            Estudiante de Analista Programador hace con 5 años de experiencia creando soluciones digitales innovadoras.
+            Conocimientos en JavaScript, Angular y Node.js, comprometido con buenas prácticas y óptimo rendimiento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--dark projects">
+      <h2 class="section__title">Mis Proyectos</h2>
+      <div class="projects__list">
+        <article class="project-card">
+          <img src="/images/e-comerce.jpg" alt="E-commerce" class="project-card__image">
+          <div class="project-card__info">
+            <h3 class="project-card__title">E-commerce</h3>
+            <p class="project-card__desc">Plataforma de comercio electrónico con Laravel y Angular.</p>
+            <a href="#" class="project-card__link">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/citasMedicas.jpg" alt="citasMedicas" class="project-card__image">
+          <div class="project-card__info">
+            <h3 class="project-card__title">Gestion de Turnos Medicos</h3>
+            <p class="project-card__desc">Sistema de gestion de turnos medicos con en C# y MySQL.</p>
+            <a href="#" class="project-card__link">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/gestionStock.jpg" alt="Gestión de stock" class="project-card__image">
+          <div class="project-card__info">
+            <h3 class="project-card__title">Gestion De Stock</h3>
+            <p class="project-card__desc">Sistema de gestión de Stock con C# y SQL Server.</p>
+            <a href="#" class="project-card__link">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images/gestionVentas.jpg" alt="Gestión de Ventas" class="project-card__image">
+          <div class="project-card__info">
+            <h3 class="project-card__title">Gestion de Ventas</h3>
+            <p class="project-card__desc">Sistema de gestion de ventas con en C# y MySQL.</p>
+            <a href="#" class="project-card__link">Ver proyecto</a>
+          </div>
+        </article>
+        <article class="project-card">
+            <img src="images/sistemaReservas.jpg" alt="Gestión de reservas" class="project-card__image">
+            <div class="project-card__info">
+              <h3 class="project-card__title">Gestion de Reservas</h3>
+              <p class="project-card__desc">Sistema de gestion de Reservas con en C# y MySQL.</p>
+              <a href="#" class="project-card__link">Ver proyecto</a>
+            </div>
+          </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--light skills">
+      <h2 class="section__title">Habilidades</h2>
+      <div class="skills__grid">
+        <div class="skill">
+          <h3 class="skill__title">Frontend</h3>
+          <ul class="skill__list">
+            <li class="skill__item">HTML5 & CSS3</li>
+            <!-- <li class="skill__item">JavaScript</li> -->
+            <li class="skill__item">Angular</li>
+            <li class="skill__item">Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3 class="skill__title">Backend</h3>
+          <ul class="skill__list">
+            <li class="skill__item">Java</li>
+            <li class="skill__item">Express</li>
+            <li class="skill__item">MongoDB</li>
+            <li class="skill__item">Firebase</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3 class="skill__title">Otros</h3>
+          <ul class="skill__list">
+            <li class="skill__item">Windows Forms (C#)</li>
+            <!-- <li class="skill__item">WPF</li> -->
+            <li class="skill__item">SQL Server</li>
+            <li class="skill__item">MySQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--dark contact-section">
+      <h2 class="section__title">Contacto</h2>
+      <div class="contact-section__inner">
+        <form class="contact-section__form">
+          <div class="form__group">
+            <label for="name" class="form__label">Nombre</label>
+            <input type="text" id="name" class="form__input" placeholder="Tu nombre" required>
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" class="form__input" placeholder="Tu email" required>
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Mensaje</label>
+            <textarea id="message" class="form__textarea" rows="5" placeholder="Tu mensaje" required></textarea>
+          </div>
+          <button type="submit" class="form__button">Enviar Mensaje</button>
+        </form>
+        <div class="contact-section__info">
+          <p class="contact-section__text">También puedes escribirme a:</p>
+          <a href="mailto:enzomachaca@gmail.com" class="contact-section__link">enzomachaca@gmail.com</a>
+          <a href="tel:+5493885676890" class="contact-section__link">+54 9 3885 400270</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copyright">© 2025 Enzo Nahuel Machaca. Todos los derechos reservados.</p>
+      <div class="social">
+        <a href="#" class="social__link social__link--github">GitHub</a>
+        <a href="#" class="social__link social__link--linkedin">LinkedIn</a>
+        <a href="#" class="social__link social__link--twitter">Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
