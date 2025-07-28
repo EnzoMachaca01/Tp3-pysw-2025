@@ -1,0 +1,23 @@
+:root {
+    --color-bg-light: #f4f6f8;
+    --color-bg-dark: #ffffff;
+    --color-primary: #0d3b66;
+    --color-secondary: #faa307;
+    --color-accent: #f4d35e;
+    --color-text: #333333;
+    --radius: 10px;
+    --spacing: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body.page {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--color-text);
+    background: var(--color-bg-light);
+}
